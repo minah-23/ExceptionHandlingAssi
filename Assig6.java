@@ -97,7 +97,7 @@ class NotValidAutosarFileException extends Exception{
     }
 }
 
-class EmptyAutosarFileException extends Error {
+class EmptyAutosarFileException extends RuntimeException {
     EmptyAutosarFileException(String m){
         super(m);
     }
